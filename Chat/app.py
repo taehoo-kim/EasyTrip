@@ -28,9 +28,7 @@ def process_question():
         Setting = ("입력된 문장에서 여행과 관련된 여행지, 예산, 인원, 일시 정보를 추출하여 Python list 형태로 반환하는 프롬포트"
                    )
 
-        client = OpenAI(
-            api_key="API Key",
-        )
+        client = "api-key"
         print(question)
 
         response = client.chat.completions.create(
