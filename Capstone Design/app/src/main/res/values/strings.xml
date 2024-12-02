@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Capstone Design</string>
+
+    <string name="facebook_app_id">974801297648017</string>
+    <string name="fb_login_protocol_scheme">fbaaf63c151789a0aa37d6c9aea64c3a2e</string>
+    <string name="facebook_client_token">aaf63c151789a0aa37d6c9aea64c3a2e</string>
+
+    <!--  Sign In  -->
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="password">Password</string>
+    <string name="apply">Apply</string>
+    <string name="find_id">Find my ID</string>
+    <string name="find_id_password">아이디/비밀번호 찾기</string>
+    <string name="find_password">Find my password</string>
+    <string name="close">Close</string>
+    <string name="signin_email">로그인</string>
+    <string name="signin_google">구글 로그인</string>
+    <string name="signin_facebook">페이스북 로그인</string>
+    <string name="signup_complete">Membership success</string>
+    <string name="signin_complete">Login success</string>
+    <string name="signout">Signout</string>
+    <string name="signout_success">Signout success</string>
+    <string name="signout_fail">Signout fail</string>
+    <string name="signout_fail_null">Please enter your email and password</string>
+    <string name="donothave_permission">You do not have read permission</string>
+    <!--  Bottom Navigation View  -->
+    <string name="home">home</string>
+    <string name="search">Search</string>
+    <string name="account">Account</string>
+    <!--  Account  -->
+    <string name="profile">Profile</string>
+
+    <!--  Comment  -->
+    <string name="send">Send</string>
+
+    <!--  Toolbar  -->
+    <string name="back">Back</string>
+    <!--  etc  -->
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

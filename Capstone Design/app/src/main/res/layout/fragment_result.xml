@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    tools:context=".fragment.ResultFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/course_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="코스 1"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/detail_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="상세정보"
+            android:gravity="center_vertical|center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/course_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="코스 2"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <Button
+            android:id="@+id/detail_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="상세정보"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/course_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="코스 3"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <Button
+            android:id="@+id/detail_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="상세정보"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/course_text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="코스 4"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical|center_horizontal"/>
+
+        <Button
+            android:id="@+id/detail_button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:text="상세정보"
+            android:gravity="center_vertical|center_horizontal"/>
+
+    </LinearLayout>
+
+</LinearLayout>
