@@ -29,7 +29,7 @@ def process_question():
                    )
 
         client = OpenAI(
-            api_key="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",
+            api_key="API Key",
         )
         print(question)
 

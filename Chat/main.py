@@ -3,7 +3,7 @@ from openai import OpenAI
 if __name__ == '__main__':
 
     Client = OpenAI(
-        api_key="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"
+        api_key="API Key"
     )
     Setting = ("여행에 대한 정보들을 입력받는 프롬포트."
                "여행지, 예산, 인원을 입력받는다."
@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     lines = []
     client = OpenAI(
-        api_key="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",
+        api_key="API Key",
     )
 
     while(True):
