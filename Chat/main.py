@@ -2,7 +2,9 @@ from openai import OpenAI
 
 if __name__ == '__main__':
 
-    Client = "api-key"
+    Client = OpenAI(
+            api_key="api_key",
+        )
     Setting = ("여행에 대한 정보들을 입력받는 프롬포트."
                "여행지, 예산, 인원을 입력받는다."
                "첫 번째 줄에는 여행정보를 python list 형태로 출력"
@@ -12,7 +14,9 @@ if __name__ == '__main__':
                )
 
     lines = []
-    client = "api-key"
+    client = OpenAI(
+            api_key="api_key",
+        )
 
     while(True):
         question = input(

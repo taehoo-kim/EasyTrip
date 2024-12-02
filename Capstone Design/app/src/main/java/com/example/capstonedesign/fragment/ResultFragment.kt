@@ -173,7 +173,7 @@ class ResultFragment : Fragment() {
     }
 
     fun getResponse(question: String, callback: (String) -> Unit) {
-        val apiKey = "API Key"
+        val apiKey = "api_key"
         val url = "https://api.openai.com/v1/completions"
 
         val requestBody = """
